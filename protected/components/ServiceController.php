@@ -37,7 +37,8 @@ class ServiceController extends Controller {
 		header($status_header);
 		// and the content type
 		header( 'Content-type: ' . $content_type );	
-		self::jsonOutput( $result );		
+		self::jsonOutput( $result );
+		Yii::app()->end();
 	}
 	
 	public function sendResponse( $result = '', $return = false, $content_type = 'text/html' ) {
