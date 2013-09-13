@@ -32,8 +32,7 @@ class BaseLocation extends CActiveRecord {
 	public function rules() {
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
-		return array(
-			array( 'update_time', 'required' ),
+		return array(			
 			array( 'user_id', 'length', 'max'=>20),
 			array( 'latitude, longitude', 'length', 'max'=>5),
 			// The following rule is used by search().
