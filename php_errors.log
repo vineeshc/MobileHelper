@@ -1,0 +1,772 @@
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:11:11 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:11:38 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:12:14 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:12:27 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:13:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:06 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:07 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:08 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:43 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:14:44 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:15:37 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:26 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:27 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:16:51 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:06 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 53
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 13:17:07 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 103
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:52:16 Asia/Calcutta] PHP  15. FriendsController->getFacebookFriends() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:53
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 105
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:53:26 Asia/Calcutta] PHP  15. FriendsController->getFacebookFriends() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:53
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 103
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:54:01 Asia/Calcutta] PHP  15. FriendsController->getFacebookFriends() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:53
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 106
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 14:54:30 Asia/Calcutta] PHP  15. FriendsController->getFacebookFriends() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:53
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 70
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   5. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:277
+[13-Sep-2013 15:09:29 Asia/Calcutta] PHP   6. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:339
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 70
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   5. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:277
+[13-Sep-2013 15:09:48 Asia/Calcutta] PHP   6. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:339
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 70
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   5. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:277
+[13-Sep-2013 15:09:50 Asia/Calcutta] PHP   6. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:339
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 70
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:28:58 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 71
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:29:36 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 71
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:03 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 72
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:25 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 74
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:30:48 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 74
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:33:35 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 73
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   5. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:277
+[13-Sep-2013 15:34:11 Asia/Calcutta] PHP   6. CWebApplication->createController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:339
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 75
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:34:30 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 75
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:35:06 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 76
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:36:24 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 77
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:37:05 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 72
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 15:38:21 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 83
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:08:52 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 81
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:09:28 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP Fatal error:  Call to a member function getAttributes() on a non-object in /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php on line 82
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP Stack trace:
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/MobileHelper/index.php:0
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   2. CApplication->run() /var/www/html/MobileHelper/index.php:13
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   3. CWebApplication->processRequest() /var/www/html/MobileHelper/framework/base/CApplication.php:162
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   4. CWebApplication->runController() /var/www/html/MobileHelper/framework/web/CWebApplication.php:142
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   5. CController->run() /var/www/html/MobileHelper/framework/web/CWebApplication.php:283
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   6. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   7. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   8. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP   9. FriendsController->actionIndex() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP  10. CController->run() /var/www/html/MobileHelper/protected/modules/services/controllers/FriendsController.php:30
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP  11. CController->runActionWithFilters() /var/www/html/MobileHelper/framework/web/CController.php:266
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP  12. CController->runAction() /var/www/html/MobileHelper/framework/web/CController.php:287
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP  13. CInlineAction->runWithParams() /var/www/html/MobileHelper/framework/web/CController.php:309
+[13-Sep-2013 16:11:17 Asia/Calcutta] PHP  14. FriendsController->actionGetFriends() /var/www/html/MobileHelper/framework/web/actions/CInlineAction.php:50
